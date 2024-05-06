@@ -1,0 +1,126 @@
+.navbar {
+ background-color: rgb(155, 27, 59);
+ overflow: hidden;
+}
+
+.item {
+    color: rgb(255, 255, 240) ;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.item:active {
+    color: black;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+background-color:rgb(255, 255, 240);
+}
+
+.baritems {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 60px;
+    text-align: center;
+    text-decoration-color:rgb(255, 255, 240);
+    text-decoration:none ;
+}
+li:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 240);
+    transition: 0.3s;
+}
+
+
+li:active {
+    color: black;
+    text-decoration-color: black;
+    transition: 0.1s;
+}
+
+#logo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: calibri;
+}
+
+#click-me {
+    font-family: calibri;
+    font-weight: 600;
+}
+
+h3 {
+
+    font-family: calibri;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.image-box {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#intro {
+    text-align: center;
+}
+
+.table {
+    display: grid;
+    place-items: center;
+    padding: 3px;
+    border-color: black;
+}
+
+#plant1 {
+    width: 125px;
+    height: 125px;
+}
+
+#green-beans {
+    height: 125px;
+    width: 125px;
+}
+
+#cucumbers {
+    height: 125px;
+    width: 125px;
+}
+
+#squash {
+    height: 125px;
+    width: 125px;
+}
+
+h4 {
+    text-align: center;
+}

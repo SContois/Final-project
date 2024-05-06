@@ -1,0 +1,40 @@
+body {
+
+    background-color: black;
+}
+
+
+h1 {
+   text-align: center;
+    color: blueviolet;
+    font-style: italic;
+}
+
+
+.button {
+    display: grid;
+    place-items: center;
+    height: 50vh;
+}
+
+ .Here-button {
+    background-color: blueviolet;
+    color: black;
+    border-width: 3px;
+    border-color: blueviolet;
+    font-size: x-large;
+    font-family: cursive;
+    transition: 0.3s;
+ }
+
+ .Here-button:hover {
+    color: white;
+    border-color: white;
+transition: 0.3s;
+ }
+
+ .Here-button:active {
+
+    opacity: 0.7;
+    transition: 0.1s;
+ }

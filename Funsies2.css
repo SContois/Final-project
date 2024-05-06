@@ -1,0 +1,23 @@
+.Rick {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    border-width: 5px;
+    border-color: blueviolet;
+}
+
+
+.rolled {
+
+    color: blueviolet;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+body {
+
+    background-color: black;
+}
